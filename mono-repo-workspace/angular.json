@@ -27,7 +27,7 @@
               "projects/host-app/src/favicon.ico",
               "projects/host-app/src/assets"
             ],
-            "styles": ["projects/host-app/src/styles.scss"],
+            "styles": ["node_modules/bootstrap/dist/css/bootstrap.min.css","projects/host-app/src/styles.scss"],
             "scripts": [],
             "extraWebpackConfig": "projects/host-app/webpack.config.js",
             "commonChunk": false
