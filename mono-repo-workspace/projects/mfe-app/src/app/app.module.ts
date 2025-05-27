@@ -5,18 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MfehomeComponent } from './mfehome/mfehome.component';
 import { MfehomeModule } from './mfehome/mfehome.module';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    MfehomeComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    MfehomeModule
-  ],
+  declarations: [AppComponent, MfehomeComponent],
+  imports: [BrowserModule, AppRoutingModule, MatButtonModule, MfehomeModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

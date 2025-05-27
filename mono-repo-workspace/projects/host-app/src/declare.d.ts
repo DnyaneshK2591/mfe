@@ -1,1 +1,1 @@
-declare module "mfe-app/MfehomeModule"
+declare module 'mfe-app/MfehomeModule';
